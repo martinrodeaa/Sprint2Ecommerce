@@ -17,3 +17,4 @@ router.get("/:id", apiControllers.idProduct);
 router.get("/:id/related", apiControllers.sameCategory);
 
 module.exports = router;
+//comentario
