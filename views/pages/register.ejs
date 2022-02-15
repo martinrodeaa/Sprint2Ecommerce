@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="login">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/footer.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
+    <title>Registro</title>
+</head>
+<header>
+    <%- include('../partials/header') %>
+</header>
+
+<body>
+    <div class="cuadroFondo"></div>
+    <section class="seccionLogReg">
+        <section class="cuadroLogReg2">
+            <form class="cuadroLogReg" action="/api/users/register" method="post">
+                <h2 class="textLogReg">¡Registrate!</h2>
+                <input type="email" name="email" id="NomUsr" placeholder="Tu email" />
+                <input type="password" name="pass" id="Pass" required placeholder="Tu nueva contraseña" />
+                <input type="password" name="ValidPass" id="pass" required placeholder="Repite tu contraseña" />
+                <button id="botonIniciarSesion">Crear Cuenta</button>
+            </form>
+
+            <p class="mensajeRegistro">
+                ¿Ya tienes Cuenta? <a href="/login">Inicia Sesión</a>
+            </p>
+        </section>
+    </section>
+    <footer>
+        <div class="footer_login">
+            <img id="img-twitter" src="/img/twitter.svg" />
+            <img id="img-facebook" src="/img/facebook.svg" />
+            <img id="img-instagram" src="/img/instagram.svg" />
+            <img id="img-youtube" src="/img/youtube.svg" />
+            <p id="texto">© MiEcommerce. Todos los derechos reservados.</p>
+            <img id="img-appStore" src="/img/apple.svg" />
+            <p id="texto-2">App Store</p>
+            <img id="img-playStore" src="/img/google-play.svg" />
+            <p id="texto-3">Google Play</p>
+        </div>
+    </footer>
+</body>
+
+</html>

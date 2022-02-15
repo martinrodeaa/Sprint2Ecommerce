@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/cart.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/footer.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- OpenSans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- <title>Cart</title> -->
+
+  <body>
+    <header>
+      <nav><%- include('../partials/header2.ejs') %></nav>
+    </header>
+    <main class="cartmain">
+      <div class="volver">
+        <img src="/img/arrow-left.svg" alt="flecha" />
+        <p>Volver</p>
+      </div>
+
+      <form class="bueno" action="/api/cart/" method="post">
+        <article class="cajaTitulo">
+          <h2>Productos en tu carrito</h2>
+        </article>
+        <article class="caja1">
+          <img class="jack" src="/img/jackdaniels.webp" alt="botellita" />
+          <p class="desc">Jack Daniel's Tennessee Honey Botella 750 mL</p>
+          <button class="botonQuitar">Quitar</button>
+          <input class="botonAdd" name="carrito1" type="number" value="1" />
+          <p class="precio">19.900</p>
+        </article>
+
+        <article class="caja2">
+          <img class="burger" src="/img/combohamburguesa.jpg" alt="burger" />
+          <p class="desc">1 Combo Hamburguesa</p>
+          <button class="botonQuitar">Quitar</button>
+          <input class="botonAdd" name="carrito2" type="number" value="1" />
+          <p class="precio">5.000</p>
+        </article>
+
+        <article class="caja3">
+          <img class="coke" src="/img/images (1).jpeg" alt="botellita" />
+          <p class="desc">Coca Cola Lata 220mL Pack Original x8</p>
+          <button class="botonQuitar">Quitar</button>
+          <input class="botonAdd" type="number" name="carrito3" value="1" />
+          <p class="precio">1.520</p>
+        </article>
+
+        <article class="cajaPuntos">
+          <p class="totalPuntos">Total de Puntos</p>
+          <p class="precio">26.420</p>
+        </article>
+
+        <article class="cajaPagar">
+          <button class="botonPagar">Ir a pagar</button>
+        </article>
+      </form>
+    </main>
+    <footer>
+      <div class="footer_cart">
+        <img id="img-twitter" src="/img/twitter.svg" />
+        <img id="img-facebook" src="/img/facebook.svg" />
+        <img id="img-instagram" src="/img/instagram.svg" />
+        <img id="img-youtube" src="/img/youtube.svg" />
+        <p id="texto">© MiEcommerce. Todos los derechos reservados.</p>
+        <img id="img-appStore" src="/img/apple.svg" />
+        <p id="texto-2">App Store</p>
+        <img id="img-playStore" src="/img/google-play.svg" />
+        <p id="texto-3">Google Play</p>
+      </div>
+    </footer>
+  </body>
+</html>

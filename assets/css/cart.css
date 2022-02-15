@@ -1,0 +1,246 @@
+h2 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.volver {
+    align-items: flex-start;
+    position: absolute;
+    width: 47px;
+    height: 22px;
+    left: 123px;
+    top: 116px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.bueno {
+    position: absolute;
+    background-color: yellowgreen;
+    top: 93px;
+    left: 138px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.cajaTitulo {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 70px;
+    left: 128px;
+    border-radius: 16px;
+}
+
+.caja1 {
+    position: absolute;
+    width: 1024px;
+    height: 80px;
+    top: 158px;
+    left: 128px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.caja2 {
+    position: absolute;
+    width: 1024px;
+    height: 80px;
+    top: 274px;
+    left: 128px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.caja3 {
+    position: absolute;
+    width: 1024px;
+    height: 80px;
+    top: 390px;
+    left: 128px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.desc {
+    position: absolute;
+    width: 632.2px;
+    height: 22px;
+    left: 79.8px;
+    top: calc(50% - 50px / 2);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.jack {
+    position: absolute;
+    width: 25px;
+    height: 64px;
+    top: 8px;
+    left: 8px;
+    margin-left: 15px;
+}
+
+.burger {
+    position: absolute;
+    width: 75px;
+    height: 64px;
+    top: 8px;
+    left: 8px;
+}
+
+.coke {
+    position: absolute;
+    width: 60px;
+    height: 64px;
+    top: 8px;
+    left: 8px;
+    margin-left: 5px;
+}
+
+.botonQuitar {
+    position: absolute;
+    width: 78px;
+    height: 32px;
+    right: 216px;
+    top: calc(50% - 32px / 2);
+    background: #494f51;
+    border-radius: 16px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.botonAdd {
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    right: 120px;
+    top: calc(50% - 32px / 2);
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.precio {
+    position: absolute;
+    width: 78px;
+    height: 32px;
+    right: 16px;
+    top: calc(50% - 80px / 2);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #000000;
+}
+
+.cajaPuntos {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 500px;
+    left: 896px;
+    border-radius: 16px;
+}
+
+.totalPuntos {
+    position: absolute;
+    width: 175px;
+    height: 33px;
+    left: calc(50% - 500px / 2 + 100px);
+    top: -15px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #000000;
+}
+
+.cajaPagar {
+    position: absolute;
+    width: 130px;
+    height: 37px;
+    top: 575px;
+    left: 967px;
+    border-radius: 16px;
+}
+
+.botonPagar {
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    right: 217px;
+    left: 30px;
+    top: calc(50% - 36px / 2);
+    background: #494f51;
+    border-radius: 16px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.footer_cart {
+    position: absolute;
+    max-width: 1024px;
+    display: flex;
+    width: 1024px;
+    height: 64px;
+    margin-top: 20px;
+    left: 15%;
+    bottom: 0px;
+    background-color: rgba(231, 231, 231, 0.25);
+    backdrop-filter: blur(4px);
+    padding: 16px 0;
+    top: 730px;
+}

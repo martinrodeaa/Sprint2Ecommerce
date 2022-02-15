@@ -1,0 +1,28 @@
+[
+  {
+    "user": 1,
+    "cart": [
+      {
+        "product": 1,
+        "qty": 2
+      },
+      {
+        "product": 2,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "user": 2,
+    "cart": [
+      {
+        "product": 8,
+        "qty": 2
+      },
+      {
+        "product": 5,
+        "qty": 1
+      }
+    ]
+  }
+]

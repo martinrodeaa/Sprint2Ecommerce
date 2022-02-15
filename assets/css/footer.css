@@ -1,0 +1,111 @@
+.container-body {
+    position: absolute;
+    max-width: 1024px;
+    display: flex;
+    width: 1024px;
+    height: 64px;
+    top: 2008px;
+    left: 128px;
+    bottom: 0px;
+    background-color: rgba(231, 231, 231, 0.25);
+    backdrop-filter: blur(4px);
+    padding: 16px 0;
+}
+
+#img-twitter {
+    position: absolute;
+    width: 20.92px;
+    height: 17px;
+    top: 23px;
+    margin: 23px 128px 24px 23.08px;
+}
+
+#img-facebook {
+    position: absolute;
+    width: 20px;
+    height: 19.92px;
+    top: 22px;
+    left: 44px;
+    margin: 22px 23.08px 22.08px 23px;
+}
+
+#img-instagram {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 22px;
+    left: 87px;
+    margin: 22px 23px 22px 23px;
+}
+
+#img-youtube {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 25px;
+    left: 130px;
+    margin: 20px 23px 25px;
+}
+
+#texto {
+    position: absolute;
+    width: 50vw;
+    height: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+    margin: 30px 156px 23px 90px;
+    left: 306px;
+}
+
+#img-appStore {
+    position: absolute;
+    width: 16.3px;
+    height: 20px;
+    left: 705px;
+    margin: 28px 7.7px 22px 119px;
+}
+
+#texto-2 {
+    font-family: Open Sans;
+    position: absolute;
+    width: 56px;
+    height: 16px;
+    right: 108px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /*display: flex;
+align-items: center;*/
+    color: #999999;
+    margin: 28px 16px 24px 7.7px;
+}
+
+#img-playStore {
+    position: absolute;
+    width: 17.75px;
+    height: 19.7px;
+    left: 900px;
+    margin: 28px 16px 24px 16px;
+}
+
+#texto-3 {
+    font-family: Open Sans;
+    position: absolute;
+    width: 66px;
+    height: 16px;
+    left: 930px;
+    right: 108px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+    margin: 28px 128px 24px 8.25px;
+}

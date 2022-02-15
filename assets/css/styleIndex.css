@@ -1,0 +1,380 @@
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.categories {
+    position: absolute;
+    color: white;
+    background-color: rgba(73, 79, 81, 1);
+    border-radius: 10px;
+    width: 1100px;
+    height: 128px;
+    text-align: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    top: 130px;
+    left: 120px;
+}
+
+.lista_categorias {
+    position: relative;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.line1 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 140px;
+}
+
+.line2 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 280px;
+}
+
+.line3 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 400px;
+}
+
+.line4 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 560px;
+}
+
+.line5 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 670px;
+}
+
+.line6 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 810px;
+}
+
+.line7 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 920px;
+}
+
+
+/* -------------TE PUEDE INTERESAR---------------- */
+
+.textInteres {
+    position: absolute;
+    top: 640px;
+    left: 150px;
+}
+
+.coca2 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 128px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss4 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 388px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss5 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 648px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss6 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 908px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.moverAlgoAsi {
+    position: absolute;
+    bottom: 660px;
+    left: 20px;
+}
+
+.moverAlgoAsi2 {
+    position: absolute;
+    bottom: 280px;
+    left: 20px;
+}
+
+.textPedidos {
+    position: absolute;
+    top: 1020px;
+    left: 150px;
+}
+
+.moverAlgoAsi3 {
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+}
+
+.coca3 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 128px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss7 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 388px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss8 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 648px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss9 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 908px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.coca4 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 128px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss10 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 388px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss11 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 648px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss12 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 908px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.categories2 {
+    position: absolute;
+    color: white;
+    background-color: rgba(73, 79, 81, 1);
+    border-radius: 10px;
+    width: 1100px;
+    height: 128px;
+    text-align: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    left: 120px;
+    top: 1830px;
+}
+
+.fondoBonus {
+    position: absolute;
+    width: 98vw;
+    height: 264px;
+    top: 350px;
+    background: #0cb093;
+}
+
+p,
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+.masterBonus {
+    position: absolute;
+    border-radius: 10px;
+    height: 256px;
+    width: 1024px;
+    top: 322px;
+    left: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgDisney {
+    height: 256px;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+}
+
+.logoDisney {
+    position: absolute;
+    border-radius: 5px;
+    top: 168px;
+    left: 8px;
+}
+
+.imgHBO {
+    height: 256px;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+}
+
+.logoHBO {
+    position: absolute;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    top: 168px;
+    right: 412px;
+}
+
+#tituloDisney {
+    position: absolute;
+    height: 88px;
+    left: 125px;
+    right: 8px;
+    bottom: 5px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+#tituloHBO {
+    position: absolute;
+    height: 88px;
+    left: 640px;
+    right: 8px;
+    bottom: 5px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.canjeando1 {
+    position: absolute;
+    height: 88px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    left: 125px;
+    right: 8px;
+    top: 160px;
+}
+
+.canjeando2 {
+    position: absolute;
+    height: 88px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    left: 640px;
+    right: 8px;
+    color: #ffffff;
+    top: 160px;
+}
